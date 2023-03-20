@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       float num1, num2,mul;
+       System.out.println("Enter Your First Floating value:");
+       Scanner s=new Scanner(System.in);
+       num1 = s.nextFloat();
+       System.out.println("Enter Your second Floating value:");
+       num2 =s.nextFloat();
+       mul=num1*num2;
+       System.out.println("Your Multiply is:" + mul);
+    }
+}
