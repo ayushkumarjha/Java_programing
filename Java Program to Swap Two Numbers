@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       int a,b,c;
+       System.out.println("Enter Your First Number:");
+       Scanner s=new Scanner(System.in);
+       a = s.nextInt();
+       System.out.println("Enter Your second Number:");
+       b =s.nextInt();
+       System.out.println("Your Number Before Swapping:" + a + b +"\n");
+       c=b;
+       b=a;
+       System.out.println("After Swapping:" + c+ b);
+    }
+}
